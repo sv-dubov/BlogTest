@@ -10,8 +10,7 @@ public interface PostService {
     
     public List<PostDTO> getAllPost();
 
-    public void deletePost(int id);
+    public void deletePost(Long id);
 
-    public PostDTO editPost(int id);
-
+    public PostDTO editPost(Long id);
 }

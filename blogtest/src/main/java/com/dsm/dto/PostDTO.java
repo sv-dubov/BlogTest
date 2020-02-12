@@ -5,7 +5,7 @@ import java.util.Date;
 import com.dsm.model.Post;
 
 public class PostDTO {
-	private int id;
+	private Long id;
 	private String title;
 	private String shortDescription;
 	private String description;
@@ -33,11 +33,11 @@ public class PostDTO {
 		this.category = post.getCategory();
 	}
 
-	public int getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
