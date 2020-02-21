@@ -22,7 +22,7 @@ public class PostController {
 	@GetMapping("/post")
 	public String reg(Map<String, Object> model) {
 		model.put("post", new PostDTO());
-		return "Post";
+		return "post";
 	}
 	
 	@PostMapping("/home")
